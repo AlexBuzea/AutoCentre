@@ -1,0 +1,181 @@
+
+.navbar {
+    border-bottom-style: solid;
+    border-color: #ed2024;
+    border-width: 0.5rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+
+
+.carousel-line-height {
+    line-height: 2rem;
+
+}
+
+.carousel-image {
+    background-image: url("Images/1-tyres.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 28rem;
+
+}
+
+.carousel-image-2 {
+    background-image: url("Images/2-tyre-thread.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 28rem;
+
+}
+
+.carousel-image-3 {
+    background-image: url("Images/3-mechanic.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 28rem;
+
+}
+
+.carousel-image-4 {
+    background-image: url("Images/4-volvo-car.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 28rem;
+
+}
+
+.carousel-image-5 {
+    background-image: url("Images/5-tyre-rain.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 28rem;
+
+}
+
+main {
+    color: #4a4f55;
+}
+
+a:hover{
+    text-decoration-color: rgb(110, 63, 31);
+}
+
+
+
+/* Slider */
+
+
+  /* .orb {
+    width: 200px;
+    height: auto;
+
+
+    display: inline-block;
+
+    float: left;
+
+  }
+  
+  .orb:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  
+  .marquee {
+    height: 5rem;
+    width: 2000px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute!important;
+    left:0;
+   
+
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    margin: 2rem 0;
+    position: absolute;
+    animation: marquee 20s linear infinite;
+  
+  }
+  
+  .marquee--inner:hover {
+    animation-play-state: paused;
+  }
+  
+
+  span {
+    float: left;
+    width: 50%:
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  } */
+
+/* End of slider */
+
+
+#footer-list a {
+    color:white;
+    text-decoration-color: white;
+    
+}
+
+
+#footer-list {
+    font-size: 0.9rem;
+  }
+  
+
+#footer-list {
+    border-top-style: solid;
+    border-color: red;
+    border-width: 0.5rem;
+}
+
+#address {
+    font-size: 1rem;
+}
+
+@media (min-width: 991.98px) {
+  #address {
+    text-align: right;
+}
+}
+
+@media (max-width: 991.98px) { 
+  .carousel-caption {
+    bottom: 15%;
+    padding: 0;
+  }
+
+ }
