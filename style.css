@@ -177,10 +177,12 @@ a:hover{
     bottom: 15%;
     padding: 0;
   }
-    
-#carouselExampleCaptions2  h5 {
+ }
+
+
+ @media (max-width: 576px) {
+  #carouselExampleCaptions2  h5 {
     font-size: 1rem;
     margin:0;
       }    
-
  }
